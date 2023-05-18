@@ -19,7 +19,6 @@ matches = re.findall(pattern, string)
 print("일치하는 패턴들:", matches)
 
 #문자열에서 패턴 일치하는 항목 치환하기 (re.sub() 사용)
-<code>
 import re
 
 string = "Hello, World!"
